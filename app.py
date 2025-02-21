@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 
-MODEL_PATH = "https://drive.google.com/file/d/1--qqwvwVwkhyHh1qnIdHT7KmckBpo6h7/view?usp=sharing"
+MODEL_PATH = "https://drive.google.com/uc?id=1--qqwvwVwkhyHh1qnIdHT7KmckBpo6h7"
 
 if not os.path.exists(MODEL_PATH):
     st.error(f"Error: Model file not found at '{MODEL_PATH}'. Please check the path and restart the app.")
